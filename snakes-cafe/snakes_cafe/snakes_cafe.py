@@ -9,6 +9,7 @@ print('**    Please see our menu below.    **')
 print('**')
 print('** To quit at any time, type "quit" **')
 print('*'*38)
+
 menu="""
 Appetizers
 ----------
