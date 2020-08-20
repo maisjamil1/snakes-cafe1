@@ -39,7 +39,7 @@ Unicorn Tears
 print(menu)
 
 print('*'*38)
-print('What would you like to order?')
+print('** What would you like to order? **')
 print('*'*38)
 # while input()!='quit':
 #   print(input())
