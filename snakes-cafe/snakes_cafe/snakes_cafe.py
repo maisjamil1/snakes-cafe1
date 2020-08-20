@@ -43,16 +43,16 @@ print('What would you like to order?')
 print('*'*38)
 # while input()!='quit':
 #   print(input())
-foodli=['wings','cookies','spring Rolls','salmon','steak','meat tornado','a Literal garden','ice cream','cake','pie','coffee','tea','unicorn tears']
+foodli=['Wings','Cookies','Spring Rolls','Salmon','Steak','Meat Tornado','A Literal Garden','Ice Cream','Cake','Pie','Coffee','Tea','Unicorn Tears']
 odersli=[]
 while True:
-    order=input()
+    order=input().capitalize()
     if order.lower()=='quit':
         break
-    elif order.lower() in foodli:
-        odersli.append(order.lower())
+    elif order in foodli:
+        odersli.append(order)
         # print(odersli)
-        orderCount=odersli.count(order.lower())
+        orderCount=odersli.count(order)
         print(f"** {orderCount} order of {order} have been added to your meal **")
     else:
         print('sorry,this order is not exist')
